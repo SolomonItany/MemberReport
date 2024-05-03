@@ -1,7 +1,7 @@
 # Member Report Eligibility 
 
 ## Introduction
-This is a Spark project that generates reports that deliver data about providers. Two reports are generated in a directory data/output in Json Formart.
+This is a Spark project that generates reports that deliver data about providers. Two reports are generated in a directory  named output in Json Formart.
 The project also incorporates unit tests and packaging into a Docker image. Here's how to use it effectively:
 
 **Prerequisites:**
