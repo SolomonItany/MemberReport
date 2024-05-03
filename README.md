@@ -10,7 +10,8 @@ The project also incorporates unit tests and packaging into a Docker image. Here
 
 ## Instructions
 
-**Step 1**: Update Data Files: Replace CSV Files: The project uses two CSV files for input data: member_eligibility.csv: Contains fields ID, fullName, and EligibilityDate and  member_months.csv: Contains fields memberID, Month, and Year. 
+**Step 1**: Update Data Files: Replace CSV Files: 
+- The project uses two CSV files for input data: member_eligibility.csv which Contains fields ID, fullName, and EligibilityDate and  member_months.csvwhich Contains fields memberID, Month, and Year. 
 - Location: These files are located in the data directory.
 - Editing: Modify these files as needed to update the input data.
 
