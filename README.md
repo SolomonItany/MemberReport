@@ -1,6 +1,8 @@
 Member Report Generator This project generates reports for member eligibility and monthly data, incorporating unit tests and packaging into a Docker image. Here's how to use it effectively:
 
-Prerequisites: Docker: Ensure Docker is installed and running on your machine. SBT: Ensure SBT is installed for local development and testing. Step 1: Update Data Files: Replace CSV Files: The project uses two CSV files for input data: member_eligibility.csv: Contains member ID, full name, and eligibility date. member_months.csv: Contains member ID, month, and year. Location: These files are located in the data directory. Editing: Modify these files as needed to update the input data.
+Prerequisites: Docker: Ensure Docker is installed and running on your machine. SBT: Ensure SBT is installed for local development and testing. 
+
+Step 1: Update Data Files: Replace CSV Files: The project uses two CSV files for input data: member_eligibility.csv: Contains member ID, full name, and eligibility date. member_months.csv: Contains member ID, month, and year. Location: These files are located in the data directory. Editing: Modify these files as needed to update the input data.
 
 Step 2: Build the Docker Image: Navigate to the project directory: cd /path/to/project Build the Docker image: docker build -t member-report-generator .
 
