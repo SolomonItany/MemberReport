@@ -21,11 +21,14 @@ The project also incorporates unit tests and packaging into a Docker image. Here
 
 This mounts the local output directory to /app/output inside the container, where the reports are written. 
 
-**Step 4:** Understanding the Test Cases: Unit Tests: The project includes unit tests to validate functionality.
-**Test Cases:** 
+**Step 4:** Understanding the Test Cases: Unit Tests: 
+- The project includes unit tests to validate functionality.
+
+Test Cases: 
 - Total Member Months: 
   - Ensures the report generates the correct total months per member.
 - Member Months Per Month:
   - Validates the report's monthly totals per member. Run Tests Locally: sbt test
+The test cases ensure the project functions correctly.
 
-This runs the unit tests to ensure the project functions correctly. Conclusion: This project generates reports, incorporating unit tests and packaging into Docker for portability. Ensure data files are updated, and follow steps for image building, running, and testing.
+**Conclusion:**  This project generates reports, incorporating unit tests and packaging into Docker for portability. update data files  as you may like, and follow steps for docker image building, running the docker image, and testing the code functionality.
